@@ -19,7 +19,6 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
-
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -143,7 +142,7 @@ section {
     animation: float 4s linear infinite;
 }
 
-@coffeeshops float {
+@keyframes float {
 
     0%,
     100% {
@@ -195,7 +194,7 @@ section {
     animation: aboutImage 4s linear infinite;
 }
 
-@coffeeshops aboutImage {
+@keyframes aboutImage {
 
     0%,
     100% {
